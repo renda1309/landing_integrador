@@ -1,0 +1,81 @@
+/* Blanco Marfil (#F8F8F8): Perfecto para un fondo limpio y elegante, proporcionando un aire de sofisticación y amplitud.
+
+Gris Pizarra (#2F4F4F): Ideal para textos y detalles, ya que aporta un contraste sobrio y moderno sin ser demasiado oscuro.
+
+Oro (#D4AF37): Excelente para acentos y detalles lujosos, como bordes, iconos o logotipos, dando un toque de exclusividad y riqueza.
+
+Borgoña (#800020): Perfecto para destacar secciones importantes, como menús o llamados a la acción, brindando un tono cálido y sofisticado.
+
+Verde Salvia (#B2AC88): Ideal para complementos y fondos secundarios, aportando un toque de frescura y naturalidad que puede asociarse con ingredientes frescos y de alta calidad. */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --text-principal: #2f4f4f;
+  --color-primary: #f8f8f8;
+  --color-secondary: #b2ac88;
+  --color-highlight: #800020;
+  --color-details: #d4af37;
+}
+
+body {
+  background-image: url(../imagenes/Diseño\ sin\ título.jpg);
+  background-size: cover;
+}
+
+main {
+  height: 90vh;
+  max-width: 100%;
+  display: flex;
+  color: #2f4f4f;
+}
+
+.container {
+  background-color: var(--color-highlight);
+  padding: 10px 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 5px 5px 20px var(--color-highlight);
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: var(--color-highlight);
+  color: var(--color-secondary);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+header img {
+  width: 40px;
+}
+
+.inicio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 250px;
+}
+
+.inicio a {
+  display: flex;
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: 500;
+}
