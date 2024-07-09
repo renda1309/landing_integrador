@@ -1,0 +1,341 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-principal);
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-family: bona nova, serif;
+}
+
+:root {
+  --text-principal: #ffffff;
+  --background-primary: #000000;
+  --background-secondary: #333333;
+  --color-highlight: #5d4037;
+  --color-highlight-sec: #046307;
+  --buts-a: #d4af37;
+}
+
+body {
+  background-color: var(--background-primary);
+}
+
+/* -----NAVBAR----- */
+.logo img {
+  width: 120px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--background-secondary);
+  padding: 0 50px;
+  color: var(--text-principal);
+  height: 50px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 80px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-weight: 500;
+  font-size: 1.06rem;
+}
+
+main {
+  background-color: var(--background-primary);
+}
+
+/* -----PORTADA----- */
+
+.portada {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 1400px;
+  height: 100vh;
+  align-items: center;
+  margin: 0 auto;
+  gap: 150px;
+}
+
+.portada__info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-content: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: left;
+  width: 500px;
+}
+
+.portada__info h1 {
+  font-size: 2rem;
+}
+
+.portada__info h3 {
+  font-size: 1.3rem;
+}
+
+.portada__info p {
+  font-size: 1.2rem;
+}
+
+.btn {
+  /* background-color: var(--buts-a); */
+  padding: 10px 30px;
+  border: 1px solid var(--buts-a);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 2px 2px 8px var(--buts-a);
+  text-align: center;
+}
+
+.portada__info a {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  /* width: 200px; */
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.portada img {
+  /*width: 600px;
+  */
+  height: 600px;
+  border: 3px solid var(--background-secondary);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+/* -----NOSOTROS----- */
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-content: center;
+  width: 1400px;
+  /* height: 100vh; */
+  align-items: center;
+  margin: 0 auto;
+  gap: 80px;
+  padding: 100px;
+  /* border: #046307 1px solid; */
+}
+
+.nosotros__titulo {
+  font-size: 1.4rem;
+}
+
+.container img {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 2px solid var(--background-secondary);
+}
+
+.nosotros__container {
+  display: flex;
+  gap: 50px;
+}
+
+.container {
+  border: 3px solid var(--buts-a);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 30px;
+  gap: 50px;
+  width: 430px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__info {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 330px;
+}
+
+/* --------PLATOS----------- */
+
+.platos {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 60px;
+  gap: 60px;
+}
+.platos h2 {
+  font-size: 1.8rem;
+}
+
+.platos__nuestros {
+  display: flex;
+  flex-direction: row;
+  width: 1400px;
+  flex-wrap: wrap;
+  /* width: 350px; */
+  gap: 60px;
+  justify-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+}
+
+.platos__container img {
+  width: 200px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 2px solid var(--background-secondary);
+}
+
+.platos__container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 3px solid var(--buts-a);
+  padding: 30px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  text-align: center;
+}
+
+.platos__container p {
+}
+
+/* --------RESERVAS------- */
+
+.reservas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px;
+  gap: 50px;
+}
+
+.reservas h3 {
+  font-size: 1.5rem;
+}
+.reservas p {
+  max-width: 850px;
+  text-align: center;
+}
+
+.reservas__container {
+  border: 3px solid var(--buts-a);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  background-image: url(../imagenes/reservas.jpg);
+  background-position: center;
+}
+
+.reservas__datos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-style: none;
+  box-decoration-break: none;
+  text-decoration: none;
+  -webkit-box-decoration-break: none;
+  padding: 50px;
+  color: var(--background-primary);
+}
+
+.reservas__calendario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 60px;
+  border-style: none;
+  box-decoration-break: none;
+  text-decoration: none;
+  -webkit-box-decoration-break: none;
+  padding: 50px;
+  color: var(--background-primary);
+  /* border: 1px solid red; */
+}
+
+input {
+  color: var(--background-secondary);
+  border: 0px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.reservas__calendario a {
+  font-size: 1.1rem;
+  max-width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* border: 1px solid red; */
+}
