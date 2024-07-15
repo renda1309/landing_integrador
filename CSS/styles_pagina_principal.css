@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
   color: var(--text-principal);
   letter-spacing: 2px;
   word-spacing: 2px;
@@ -29,11 +30,14 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
+  max-width: 100%;
+  /* margin: 0 auto; */
   background-color: var(--background-secondary);
   padding: 0 50px;
   color: var(--text-principal);
   height: 50px;
+  text-decoration: none;
 }
 
 .logo {
@@ -51,6 +55,26 @@ body {
   gap: 50px;
   font-weight: 500;
   font-size: 1.06rem;
+}
+#toggle-menu {
+  display: none;
+}
+
+.boton-menu {
+  display: none;
+}
+.active {
+  background: var(--buts-a);
+  /* border: 1px solid red; */
+  padding: 5px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--background-primary);
 }
 
 main {
@@ -79,6 +103,19 @@ main {
   gap: 50px;
   text-align: left;
   width: 500px;
+
+  /* border: 1px solid red; */
+}
+
+#container__h1 {
+  border: 3px solid var(--buts-a);
+  width: 1100px;
+  padding: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .portada__info h1 {
@@ -87,10 +124,12 @@ main {
 
 .portada__info h3 {
   font-size: 1.3rem;
+  padding-left: 10px;
 }
 
 .portada__info p {
   font-size: 1.2rem;
+  padding-left: 10px;
 }
 
 .btn {
@@ -253,9 +292,6 @@ main {
   text-align: center;
 }
 
-.platos__container p {
-}
-
 /* --------RESERVAS------- */
 
 .reservas {
@@ -338,4 +374,58 @@ input {
   align-items: center;
   align-content: center;
   /* border: 1px solid red; */
+}
+
+/* ------UBICACION------ */
+
+.ubicacion {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
+  gap: 150px;
+}
+
+.ubicacion img {
+  width: 40px;
+}
+
+.ubicacion__datos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 400px;
+}
+.ubicacion__redes {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.ubicacion__mapa {
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.container__ubicacion {
+  border: 1px solid red;
+}
+
+/* -----FOOTER----- */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+footer img {
+  width: 120px;
 }

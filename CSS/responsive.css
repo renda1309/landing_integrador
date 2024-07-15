@@ -1,0 +1,219 @@
+:root {
+  --text-principal: #ffffff;
+  --background-primary: #000000;
+  --background-secondary: #333333;
+  --color-highlight: #5d4037;
+  --color-highlight-sec: #046307;
+  --buts-a: #d4af37;
+}
+
+@media (max-width: 992px) {
+  /* html {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    width: 100%;
+    padding: 400px;
+  } */
+  .header {
+    /* border: red 1px solid; */
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 60px;
+    width: 100%;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: end;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    z-index: 2;
+    width: 80%;
+    top: 60px;
+    left: 10%;
+    right: 10%;
+    padding: 60px;
+    border-radius: 0 0px 20px 20px;
+    /* border: 1px solid blue; */
+    background-color: var(--background-secondary);
+    transition: all 1s ease;
+    /*display: none;
+    */
+    transform: translateX(-1000px);
+    -webkit-transform: translateX(-1000px);
+    -moz-transform: translateX(-1000px);
+    -ms-transform: translateX(-1000px);
+    -o-transform: translateX(-1000px);
+    -webkit-border-radius: 0 0px 20px 20px;
+    -moz-border-radius: 0 0px 20px 20px;
+    -ms-border-radius: 0 0px 20px 20px;
+    -o-border-radius: 0 0px 20px 20px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .boton-menu {
+    display: block;
+    /* border: 1px blue solid; */
+    width: 30px;
+    color: var(--buts-a);
+  }
+
+  #toggle-menu:checked ~ .navbar {
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    display: flex;
+  }
+
+  .portada {
+    /* padding: 100px 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* border: 1px solid red; */
+    padding-top: 350px;
+    max-width: 800px;
+    padding-bottom: 200px;
+    margin: 0 10% 0 10%;
+  }
+  .portada__info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #container__h1 {
+    width: max-content;
+  }
+
+  .portada img {
+    display: none;
+  }
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 10% 0 10%;
+    /* border: 1px solid rgb(51, 27, 192); */
+    padding-top: 150px;
+  }
+  .nosotros__titulo {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .nosotros__container {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* margin: 0 auto; */
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    max-width: 350px;
+    max-height: fit-content;
+  }
+
+  .container img {
+    max-height: 300px;
+  }
+
+  .platos {
+    max-width: 800px;
+    margin: 0 10% 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid yellowgreen; */
+  }
+
+  .platos__nuestros {
+    max-width: 800px;
+    /* margin: 0 auto; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid rgb(205, 50, 128); */
+  }
+
+  .platos__container {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .reservas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* flex-wrap: wrap; */
+    width: 800px;
+    margin: 0 10% 0 10%;
+    /* border: 1px solid rgb(235, 220, 10); */
+    padding-top: 150px;
+  }
+
+  .reservas__datos h4 {
+    font-size: 16px;
+  }
+
+  .reservas__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+  }
+  .reservas__calendario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: red 1px solid; */
+    text-align: center;
+  }
+
+  .reservas__container {
+    background-position: bottom;
+  }
+
+  .ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .ubicacion__mapa {
+    max-width: 600px;
+  }
+}
