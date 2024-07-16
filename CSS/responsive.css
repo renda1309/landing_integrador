@@ -230,9 +230,35 @@
 
 @media (max-width: 576px) {
   .header {
-    max-width: 100%;
+    /* border: red 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 50px;
+    width: 100%;
   }
   body {
     max-width: 576px;
+  }
+
+  .portada__info {
+    max-width: 400px;
+  }
+
+  .portada__info h1 {
+    max-width: 400px;
+  }
+  .nosotros__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .platos__nuestros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 }
