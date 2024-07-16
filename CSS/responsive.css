@@ -184,7 +184,7 @@
     /* flex-wrap: wrap; */
     width: 800px;
     margin: 0 5%;
-    border: 1px solid rgb(235, 220, 10);
+    /* border: 1px solid rgb(235, 220, 10); */
     padding-top: 150px;
   }
 
@@ -211,6 +211,12 @@
     background-position: bottom;
   }
 
+  .reservas__horario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .ubicacion {
     display: flex;
     flex-direction: column;
@@ -218,11 +224,15 @@
     text-align: center;
     align-content: center;
     border: red 1px solid;
-    max-width: 800px;
-    margin: 0 auto;
+    width: 800px;
+    margin: 0 5%;
   }
   .ubicacion__mapa {
     max-width: 600px;
+  }
+
+  .reservas__container {
+    width: 400px;
   }
 }
 
@@ -230,14 +240,19 @@
 
 @media (max-width: 576px) {
   .header {
-    /* border: red 1px solid; */
+    border: red 1px solid;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: center;
     height: 50px;
-    width: 100%;
+    position: relative;
+    max-width: 100%;
   }
+  nav {
+    max-width: 100%;
+  }
+
   body {
     max-width: 576px;
   }
@@ -260,5 +275,9 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+
+  .reservas p {
+    max-width: 400px;
   }
 }
