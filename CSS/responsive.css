@@ -246,7 +246,7 @@
     align-items: center;
     align-content: center;
     height: 50px;
-    position: relative;
+    position: absolute;
     max-width: 100%;
   }
   nav {
@@ -279,5 +279,17 @@
 
   .reservas p {
     max-width: 400px;
+  }
+
+  .ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 400px;
+    margin: 0 10%;
+  }
+  .ubicacion__mapa {
+    max-width: 370px;
   }
 }
