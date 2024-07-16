@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
 :root {
   --text-principal: #ffffff;
   --background-primary: #000000;
@@ -22,7 +24,6 @@
   .header {
     /* border: red 1px solid; */
     display: flex;
-    position: sticky;
     justify-content: space-between;
     align-items: center;
     align-content: center;
@@ -93,7 +94,7 @@
     /* position: relative; */
     /* border: 1px solid red; */
     padding-top: 350px;
-    max-width: 800px;
+    width: 800px;
     padding-bottom: 200px;
     margin: 0 10% 0 10%;
   }
@@ -116,7 +117,7 @@
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    max-width: 800px;
+    width: 800px;
     margin: 0 10% 0 10%;
     /* border: 1px solid rgb(51, 27, 192); */
     padding-top: 150px;
@@ -138,11 +139,14 @@
     /* border: 1px solid red; */
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .container {
-    max-width: 350px;
+    width: 350px;
     max-height: fit-content;
+    display: flex;
+    /* border: #046307 1px sol; */
   }
 
   .container img {
@@ -179,8 +183,8 @@
     align-content: center;
     /* flex-wrap: wrap; */
     width: 800px;
-    margin: 0 10% 0 10%;
-    /* border: 1px solid rgb(235, 220, 10); */
+    margin: 0 5%;
+    border: 1px solid rgb(235, 220, 10);
     padding-top: 150px;
   }
 
@@ -199,7 +203,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: red 1px solid; */
+
     text-align: center;
   }
 
@@ -212,8 +216,17 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    align-content: center;
+    border: red 1px solid;
+    max-width: 800px;
+    margin: 0 auto;
   }
   .ubicacion__mapa {
     max-width: 600px;
   }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+@media (max-width: 576px) {
 }

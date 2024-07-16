@@ -32,9 +32,8 @@
             <li><a href="#reservas">Reservas</a></li>
             <li><a href="#ubicacion">Contacto</a></li>
           </ul>
+          <div class="overlay"></div>
         </nav>
-
-        <div class="overlay"></div>
       </div>
     </header>
     <main>
@@ -204,10 +203,22 @@
               <input type="date" id="fecha" placeholder="dd/mm/aaaa" />
             </div>
             <div class="reservas__horario">
-              <label for="hora"></label>
-              <input type="number" placeholder="Hora" min="20" max="23" />
-              <label for="minutos"></label>
-              <input type="number" range="number: 0 / 30" />
+              <div class="reservas__horario__hora">
+                <span>Hora</span>
+                <div>
+                  <p class="active">20</p>
+                  <p>21</p>
+                  <p>22</p>
+                  <p>23</p>
+                </div>
+              </div>
+              <div class="reservas__horario__minutos">
+                <span>Minutos</span>
+                <div>
+                  <p class="active">00</p>
+                  <p>30</p>
+                </div>
+              </div>
             </div>
             <a href="#" class="btn">Reservar</a>
           </div>

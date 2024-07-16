@@ -1,12 +1,4 @@
-/* Blanco Marfil (#F8F8F8): Perfecto para un fondo limpio y elegante, proporcionando un aire de sofisticación y amplitud.
-
-Gris Pizarra (#2F4F4F): Ideal para textos y detalles, ya que aporta un contraste sobrio y moderno sin ser demasiado oscuro.
-
-Oro (#D4AF37): Excelente para acentos y detalles lujosos, como bordes, iconos o logotipos, dando un toque de exclusividad y riqueza.
-
-Borgoña (#800020): Perfecto para destacar secciones importantes, como menús o llamados a la acción, brindando un tono cálido y sofisticado.
-
-Verde Salvia (#B2AC88): Ideal para complementos y fondos secundarios, aportando un toque de frescura y naturalidad que puede asociarse con ingredientes frescos y de alta calidad. */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
 * {
   padding: 0;
