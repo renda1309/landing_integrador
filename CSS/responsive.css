@@ -266,13 +266,13 @@
   }
 
   .portada__info {
-    max-width: 400px;
+    max-width: 300px;
   }
   #container__h1 {
     border: 1px solid rgb(54, 32, 175);
   }
   .portada__info h1 {
-    max-width: 400px;
+    max-width: 300px;
   }
   .nosotros__container {
     display: flex;
@@ -288,7 +288,7 @@
   }
 
   .reservas p {
-    max-width: 400px;
+    max-width: 300px;
   }
 
   .ubicacion {
@@ -296,10 +296,10 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    max-width: 400px;
+    max-width: 300px;
     margin: 0 10%;
   }
   .ubicacion__mapa {
-    max-width: 370px;
+    max-width: 300px;
   }
 }
