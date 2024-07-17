@@ -254,8 +254,8 @@
     align-items: center;
     align-content: center;
     height: 50px;
-    position: relative;
-    max-width: 100vw;
+    position: static;
+    /* max-width: 100vw; */
   }
   nav {
     max-width: 100%;
