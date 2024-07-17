@@ -231,7 +231,7 @@
     justify-content: center;
     text-align: center;
     align-content: center;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     width: 600px;
     /* margin: 0 5%; */
   }
