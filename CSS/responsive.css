@@ -333,9 +333,21 @@
     align-items: center;
     align-content: center;
     max-width: 300px;
-    margin: 0 10%;
+    /* margin: 0 10%; */
   }
+  .ubicacion__datos h3 {
+    font-size: 1.3rem;
+  }
+  .ubicacion__datos p {
+    font-size: 13px;
+  }
+
   .ubicacion__mapa {
     max-width: 300px;
+  }
+
+  .ubicacion__redes img {
+    max-width: 50px;
+    /* border: 1px red solid; */
   }
 }
