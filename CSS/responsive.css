@@ -254,31 +254,52 @@
     align-items: center;
     align-content: center;
     height: 50px;
-    position: absolute;
+    position: relative;
     max-width: 100%;
   }
   nav {
     max-width: 100%;
   }
 
-  body {
-    max-width: 576px;
-  }
-
   .portada__info {
-    max-width: 300px;
+    max-width: 350px;
+    border: 1px solid rgb(32, 175, 32);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
   #container__h1 {
     border: 1px solid rgb(54, 32, 175);
   }
   .portada__info h1 {
     max-width: 300px;
+    font-size: 1.2rem;
+  }
+
+  .portada__info h3 {
+    font-size: 1rem;
+  }
+
+  .portada__info p {
+    font-size: 14px;
   }
   .nosotros__container {
     display: flex;
     flex-direction: column;
   }
+  .nosotros__titulo h2 {
+    font-size: 1.3rem;
+  }
+  .container__info h2 {
+    font-size: 1.1rem;
+  }
 
+  .container__info p {
+    font-size: 13px;
+  }
+  .container {
+    max-height: 600px;
+  }
   .platos__nuestros {
     display: flex;
     flex-direction: column;
@@ -287,8 +308,23 @@
     align-content: center;
   }
 
+  .platos h2 {
+    font-size: 1.3rem;
+  }
+  .platos__container h3 {
+    font-size: 1rem;
+  }
+
+  .platos__container p {
+    font-size: 12px;
+  }
   .reservas p {
     max-width: 300px;
+    font-size: 13px;
+  }
+
+  .reservas h3 {
+    font-size: 1.3rem;
   }
 
   .ubicacion {
