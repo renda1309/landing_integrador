@@ -109,7 +109,7 @@
   }
 
   #container__h1 {
-    border: none;
+    border: 1px solid red;
     background: linear-gradient(to top, var(--buts-a), var(--text-principal));
     color: transparent;
     background-clip: text;
@@ -268,7 +268,9 @@
   .portada__info {
     max-width: 400px;
   }
-
+  #container__h1 {
+    border: 1px solid rgb(54, 32, 175);
+  }
   .portada__info h1 {
     max-width: 400px;
   }
