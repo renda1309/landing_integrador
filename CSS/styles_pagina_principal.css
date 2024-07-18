@@ -58,7 +58,7 @@ body {
   align-items: center;
   gap: 50px;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 14px;
   cursor: pointer;
 }
 #toggle-menu {
@@ -77,13 +77,18 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 18px;
   color: var(--background-primary);
 }
 
 main {
   background-color: var(--background-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
 }
 
 /* -----PORTADA----- */
@@ -92,13 +97,18 @@ main {
   display: flex;
   justify-content: center;
   align-content: center;
+  align-content: center;
+  max-width: 85%;
   width: 1400px;
-  height: 100vh;
   align-items: center;
   margin: 0 auto;
+  margin-top: 100px;
   gap: 150px;
   /* border: #046307 1px solid; */
-  padding-top: 200px;
+  padding-top: 100px;
+
+  flex-wrap: wrap;
+  height: 100vh;
 }
 
 .portada__info {
@@ -167,7 +177,7 @@ main {
 .portada img {
   /*width: 600px;
   */
-  height: 600px;
+  max-height: 600px;
   border: 3px solid var(--background-secondary);
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -184,11 +194,14 @@ main {
   justify-content: center;
   align-content: center;
   align-content: center;
-  width: 1400px;
+  max-width: 90%;
+  width: 1600px;
+  flex-wrap: wrap;
   /* height: 100vh; */
   align-items: center;
   margin: 0 auto;
   gap: 80px;
+  margin-top: 200px;
   padding-top: 200px;
   /* border: #046307 1px solid; */
 }
@@ -216,6 +229,12 @@ main {
 .nosotros__container {
   display: flex;
   gap: 50px;
+  /* border: #046307 1px solid; */
+  max-width: 90%;
+  width: 1600px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -225,9 +244,9 @@ main {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  padding: 30px;
+  padding: 20px;
   gap: 50px;
-  width: 430px;
+  width: 420px;
   height: 800px;
   display: flex;
   flex-direction: column;
@@ -251,13 +270,16 @@ main {
 .platos {
   display: flex;
   flex-direction: column;
+  max-width: 90%;
   width: 1400px;
+  flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   align-content: center;
   padding-top: 200px;
   gap: 60px;
+  /* border: #046307 1px solid; */
 }
 .platos h2 {
   font-size: 1.8rem;
@@ -266,8 +288,10 @@ main {
 .platos__nuestros {
   display: flex;
   flex-direction: row;
+  max-width: 100%;
   width: 1400px;
   flex-wrap: wrap;
+  /* border: #046307 1px solid; */
   /* width: 350px; */
   gap: 60px;
   justify-content: center;
@@ -313,10 +337,13 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1400px;
+  max-width: 80%;
+  width: 1200px;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding-top: 200px;
   gap: 50px;
+  /* border: #046307 1px solid; */
 }
 
 .reservas h3 {
@@ -464,13 +491,16 @@ input {
 
 .ubicacion {
   display: flex;
-  max-width: 1400px;
+  max-width: 80%;
+  width: 1400px;
+  flex-wrap: wrap;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
   align-content: center;
   padding-top: 200px;
   gap: 150px;
+  /* border: #046307 1px solid; */
 }
 
 .ubicacion img {
