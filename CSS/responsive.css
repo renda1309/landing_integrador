@@ -243,7 +243,7 @@
   }
 
   .reservas__container {
-    width: 400px;
+    width: 550px;
   }
 }
 
@@ -297,16 +297,16 @@
     font-size: 14px;
   }
   .container {
-    max-width: 350px;
+    max-width: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 5%;
+    margin: 0;
   }
   .nosotros__container {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
+    max-width: 320px;
     /* border: 1px solid red; */
   }
   .nosotros__titulo h2 {
@@ -353,7 +353,9 @@
   .reservas h3 {
     font-size: 1.3rem;
   }
-
+  .reservas__container {
+    width: 320px;
+  }
   .ubicacion {
     display: flex;
     justify-content: center;
