@@ -264,7 +264,7 @@
   } */
   * {
     /* border: 1px red solid; */
-    overflow-y: hidden;
+    overflow-x: hidden;
   }
   .boton-menu {
     width: 20px;
