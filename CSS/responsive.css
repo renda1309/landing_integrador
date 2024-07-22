@@ -83,6 +83,7 @@
     /* border: 1px blue solid; */
     width: 25px;
     color: var(--buts-a);
+    cursor: pointer;
   }
 
   #toggle-menu:checked ~ .navbar {
