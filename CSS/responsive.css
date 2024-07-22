@@ -296,9 +296,17 @@
   .portada__info p {
     font-size: 14px;
   }
+  .container {
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .nosotros__container {
     display: flex;
     flex-direction: column;
+    width: 350px;
+    border: 1px solid red;
   }
   .nosotros__titulo h2 {
     font-size: 1.3rem;
@@ -309,6 +317,7 @@
 
   .container__info p {
     font-size: 13px;
+    max-width: 300px;
   }
   .container {
     max-height: 600px;
