@@ -301,11 +301,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 5%;
   }
   .nosotros__container {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    max-width: 350px;
     /* border: 1px solid red; */
   }
   .nosotros__titulo h2 {
