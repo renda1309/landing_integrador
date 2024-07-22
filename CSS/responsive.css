@@ -263,7 +263,7 @@
     max-width: 100%;
   } */
   * {
-    border: 1px red solid;
+    /* border: 1px red solid; */
   }
   .boton-menu {
     width: 20px;
