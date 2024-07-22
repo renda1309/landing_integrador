@@ -131,6 +131,7 @@
     /* margin: 0 10% 0 10%; */
     /* border: 1px solid rgb(51, 27, 192); */
     padding-top: 100px;
+    margin: 0 auto;
   }
   .nosotros__titulo {
     width: 400px;
@@ -264,10 +265,13 @@
   } */
   * {
     /* border: 1px red solid; */
-    overflow-x: hidden;
   }
   .boton-menu {
     width: 20px;
+  }
+
+  main {
+    overflow-x: hidden;
   }
 
   .portada__info {
