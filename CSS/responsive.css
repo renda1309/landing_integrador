@@ -356,6 +356,12 @@
   .reservas__container {
     width: 330px;
   }
+
+  .reservas__horario__hora p,
+  .reservas__horario__minutos p {
+    padding: 10px 15px;
+  }
+
   .ubicacion {
     display: flex;
     justify-content: center;
