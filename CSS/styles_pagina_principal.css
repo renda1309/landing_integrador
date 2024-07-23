@@ -156,16 +156,27 @@ main {
 }
 
 .btn {
-  /* background-color: var(--buts-a); */
+  /*background-color: var(--buts-a);
+  */
   padding: 10px 30px;
   border: 1px solid var(--buts-a);
   border-radius: 10px;
+  background: transparent;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   box-shadow: 2px 2px 8px var(--buts-a);
   text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
 }
 
 .portada__info a {

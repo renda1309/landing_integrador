@@ -11,7 +11,7 @@
   position: relative;
 }
 
-.navbar a::before {
+.navbar .no-active::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -21,7 +21,7 @@
   background: linear-gradient(
     to right,
     var(--buts-a),
-    var(--background-secondary)
+    var(--color-highlight-sec)
   );
   z-index: 5;
   transform: scaleX(0);
@@ -33,10 +33,49 @@
   -o-transform: scaleX(0);
 }
 
-.navbar a:hover::before {
+.navbar .no-active:hover::before {
   transform: scaleX(1);
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
   -ms-transform: scaleX(1);
   -o-transform: scaleX(1);
+}
+
+.btn {
+  /* background: var(--color-highlight-sec); */
+  z-index: 1;
+}
+
+.btn::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5);
+  7px7px20px0pxrgba(0,0,0,.1),4px4px5px0pxrgba(0,0,0,.1): ;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.btn:hover::after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+.btn:active {
+  top: 2px;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 8px var(--color-highlight-sec);
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
 }
