@@ -1,0 +1,7 @@
+@media (max-width: 992px) {
+  .inicio {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+  }
+}

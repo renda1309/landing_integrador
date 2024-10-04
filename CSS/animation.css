@@ -41,6 +41,14 @@
   -o-transform: scaleX(1);
 }
 
+.no-active:hover {
+  color: var(--buts-a);
+}
+
+.active:hover {
+  color: var(--color-highlight-sec);
+}
+
 .btn {
   /* background: var(--color-highlight-sec); */
   z-index: 1;
@@ -55,7 +63,7 @@
   left: 0;
   z-index: -1;
   border-radius: 5px;
-  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+  background-image: linear-gradient(315deg, var(--buts-a) 0%, #f6fc9c 74%);
   box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5);
   7px7px20px0pxrgba(0,0,0,.1),4px4px5px0pxrgba(0,0,0,.1): ;
   transition: all 0.3s ease;
@@ -76,6 +84,5 @@
 .btn:hover {
   box-shadow: 2px 2px 8px var(--color-highlight-sec);
   color: #000000;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 17px;
 }
